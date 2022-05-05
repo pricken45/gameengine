@@ -2,8 +2,8 @@
 #include <iostream>
 
 
-const int WIDTH = 30;
-const int HEIGHT = 10;
+const int WIDTH = 50;
+const int HEIGHT = 12;
 const bool BORDER = true;
 
 int main() {
@@ -12,8 +12,6 @@ int main() {
   int y = 5;
   int xSpeed = 2;
   int ySpeed = 1;
-  int lastX;
-  int lastY;
   while (true) 
   {
     std::cout << "\n";
